@@ -1,6 +1,6 @@
 # C++ Boilerplate
 [![Build Status](https://app.travis-ci.com/pooja-kabra/pid_controller.svg?branch=main)](https://app.travis-ci.com/pooja-kabra/pid_controller) 
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/pooja-kabra/pid_controller/badge.svg?branch=main)](https://coveralls.io/github/pooja-kabra/pid_controller?branch=main)
 ---
 
 ## Overview
