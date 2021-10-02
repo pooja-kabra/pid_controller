@@ -11,8 +11,8 @@
  */
 
 #include<iostream>
+#include <cmath>
 #include "pid.hpp"
-
 
 PIDController::PIDController() {
 }
@@ -44,8 +44,26 @@ void PIDController::setKi(double ki_i) {
 
 
 /* method to compute the corrected velocity */
-double PIDController::compute(double setpoint, double current_val) {
-    return 0;
+double PIDController::compute(double sp, double cv) {
+    setpoint = sp;
+    current_val = cv;
+    double error = setpoint - current_val;
+    double previous_error = 0.0;
+    double gain;
+    while (std::abs(error) > 0.1)
+    {
+        // Add proportional gain
+        gain = Kp * error;
+        // Add integral gain
+        gain += (Ki * error * dt);
+        // Add derivative gain
+        gain += (Kd * (error - previous_error) / dt);
+        // Latch values for next control loop iteration
+        current_val += gain;
+        previous_error = error;
+        error = setpoint - current_val;
+    }
+    return current_val;
 }
 
 PIDController::~PIDController() {
