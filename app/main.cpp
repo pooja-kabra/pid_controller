@@ -16,7 +16,7 @@
 using std::endl;
 
 int main() {
-    double set_velocity, dt, kp, ki, kd;
+    double set_velocity, kp, ki, kd;
 
 
     PIDController pid;
