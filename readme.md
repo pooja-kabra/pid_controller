@@ -6,7 +6,7 @@
 # Authors
 
 Part 1: - Driver: Pooja Kabra ; Navigator : Aditya Jadhav
-Part 2: - Driver: Aditya Jadhav ; Navigator : Pooja Kabra
+Part 2: - Driver: Robert Vandemark ; Navigator : Rahul Karanam
 
 
 ## Overview
