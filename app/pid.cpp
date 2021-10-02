@@ -19,24 +19,27 @@ PIDController::PIDController() {
 
 
 double PIDController::getKp() {
-    return 0;
+    return Kp;
 }
 
 double PIDController::getKd() {
-    return 0;
+    return Kd;
 }
 
 double PIDController::getKi() {
-    return 0;
+    return Ki;
 }
 
 void PIDController::setKp(double kp_i) {
+    Kp = kp_i;
 }
 
 void PIDController::setKd(double kd_i) {
+    Kd = kd_i;
 }
 
 void PIDController::setKi(double ki_i) {
+    Ki = ki_i;
 }
 
 
