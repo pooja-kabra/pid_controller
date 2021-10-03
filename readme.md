@@ -18,6 +18,12 @@ Simple starter C++ project with:
 - cmake
 - googletest
 
+## TODO
+
+- Add more tests to improve coverage
+- Add more documentation
+- Improve README
+
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/dpiet/cpp-boilerplate
