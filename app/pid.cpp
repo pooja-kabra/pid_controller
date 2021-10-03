@@ -14,7 +14,9 @@
 #include <cmath>
 #include "pid.hpp"
 
-PIDController::PIDController() {
+PIDController::PIDController() :
+        setpoint(0),
+        current_val(0) {
 }
 
 
@@ -49,11 +51,9 @@ double PIDController::compute(double sp, double cv) {
     current_val = cv;
     double error = setpoint - current_val;
     double previous_error = 0.0;
-    double gain;
-    while (std::abs(error) > 0.1)
-    {
+    while (std::abs(error) > 0.1) {
         // Add proportional gain
-        gain = Kp * error;
+        double gain = Kp * error;
         // Add integral gain
         gain += (Ki * error * dt);
         // Add derivative gain
