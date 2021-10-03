@@ -76,11 +76,11 @@ class PIDController {
     /**
      * @brief Compute the resultant velocity of the PID controller
      * 
-     * @param setpoint 
-     * @param current_val 
+     * @param sp
+     * @param cv
      * @return double 
      */
-    double compute(double setpoint, double current_val);
+    double compute(double sp, double cv);
     /**
      * @brief Destroy the PIDController object
      * 

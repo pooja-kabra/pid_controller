@@ -1,12 +1,14 @@
 # C++ Boilerplate
-[![Build Status](https://app.travis-ci.com/pooja-kabra/pid_controller.svg?branch=main)](https://app.travis-ci.com/pooja-kabra/pid_controller) 
-[![Coverage Status](https://coveralls.io/repos/github/pooja-kabra/pid_controller/badge.svg?branch=main)](https://coveralls.io/github/pooja-kabra/pid_controller?branch=main)
+
 ---
+
+[![Build Status](https://app.travis-ci.com/rnvandemark/pid_controller.svg?branch=main)](https://app.travis-ci.com/rnvandemark/pid_controller.svg?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/rnvandemark/pid_controller/badge.svg?branch=main)](https://coveralls.io/github/rnvandemark/pid_controller?branch=main)
 
 # Authors
 
 Part 1: - Driver: Pooja Kabra ; Navigator : Aditya Jadhav
-Part 2: - Driver: Aditya Jadhav ; Navigator : Pooja Kabra
+Part 2: - Driver: Robert Vandemark ; Navigator : Rahul Karanam
 
 
 ## Overview
@@ -15,6 +17,12 @@ Simple starter C++ project with:
 
 - cmake
 - googletest
+
+## TODO
+
+- Add more tests to improve coverage
+- Add more documentation
+- Improve README
 
 ## Standard install via command-line
 ```
