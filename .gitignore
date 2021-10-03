@@ -1,2 +1,6 @@
 # Ignore build products
 build/
+
+# Ignore the generated docs
+docs/html/
+docs/latex/
