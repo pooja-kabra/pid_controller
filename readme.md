@@ -2,8 +2,8 @@
 
 ---
 
-[![Build Status](https://app.travis-ci.com/rnvandemark/pid_controller.svg?branch=main)](https://app.travis-ci.com/rnvandemark/pid_controller.svg?branch=main)
-[![Coverage Status](https://coveralls.io/repos/github/rnvandemark/pid_controller/badge.svg?branch=main)](https://coveralls.io/github/rnvandemark/pid_controller?branch=main)
+[![Build Status](https://app.travis-ci.com/rnvandemark/pid_controller.svg?branch=implement_controller)](https://app.travis-ci.com/rnvandemark/pid_controller.svg?branch=implement_controller)
+[![Coverage Status](https://coveralls.io/repos/github/rnvandemark/pid_controller/badge.svg?branch=implement_contoller)](https://coveralls.io/github/rnvandemark/pid_controller?branch=implement_controller)
 
 # Authors
 
